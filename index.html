@@ -15,6 +15,27 @@
         <img src="bt5.png" class="product-image" onclick="changeImage(5)"/>
         <img src="bt6.png" class="product-image" onclick="changeImage(6)"/>
         <img src="bt7.png" class="product-image" onclick="changeImage(7)"/>
+
+        <script>
+            function changeImage(num){
+                const mainImage = document.getElementById('main-product-image');
+                if(num==1){
+                    mainImage.src = "bt1.png";
+                }else if(num==2){
+                    mainImage.src = "bt2.png";
+                }else if(num==3){
+                    mainImage.src = "bt3.png";
+                }else if(num==4){
+                    mainImage.src = "bt4.png";
+                }else if(num==5){
+                    mainImage.src = "bt5.png";
+                }else if(num==6){
+                    mainImage.src = "bt6.png";
+                }else if(num==7){
+                    mainImage.src = "bt7.png";
+                }
+        }
+        </script>
 </div>
 </body>
 </html>
